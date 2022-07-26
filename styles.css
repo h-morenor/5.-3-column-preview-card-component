@@ -62,9 +62,9 @@ h1 {
 .button2,
 .button3 {
   background-color: hsl(0, 0%, 95%);
+  border: 1px solid transparent;
   width: 70%;
   height: 15%;
-  border: 0;
   border-radius: 50px;
   margin-bottom: 20px;
 }
@@ -150,7 +150,7 @@ h1 {
   .button2:hover,
   .button3:hover {
     background-color: transparent;
-    border: 0.5px solid hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
     cursor: pointer;
     position: relative;
